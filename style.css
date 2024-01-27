@@ -20,7 +20,7 @@
 
   }
 .iteam1{
-    background-color: yellow;
+    background-color:#525CEB;
     grid-row: 1 / 5;
    
 }
@@ -64,4 +64,47 @@
 .third_8{
     grid-row: 7/13;
     background-color: brown;
+}
+
+span{
+  
+   margin-left: 10px;
+   color: #fff;
+   transition: transform 0.3s ease;
+   display: inline-block;
+  
+    
+}
+li{
+    padding-left: 30px;
+
+}
+.first_list{
+    font-size: 6rem;
+    margin-bottom: 30px;
+   
+}
+.first_list span ion-icon {
+    font-size: 3rem;
+    text-align: end;
+    margin-left: 0%;
+   
+}
+.second_list{
+    margin-bottom: 30px;
+}
+.second_list ,.third_list{
+    font-size: 4rem;
+   
+}
+li span ion-icon {
+    font-size: 1.5rem;
+    font-weight: 900;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+   
+}
+li span ion-icon:hover {
+    transform: scale(1.7);
+    border-radius: 50%;
+    background-color: rgb(119, 116, 116);
 }
