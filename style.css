@@ -11,7 +11,7 @@
    grid-template-rows: 1fr 1fr 1fr 1fr;
    height:130vh;
    width: 100vw;
-   gap: 20px;
+   /* gap: 20px; */
 }
 .grid-item:first-child {
     grid-row: 1 / 7;
@@ -27,6 +27,7 @@
 .iteam2{
     background-color: blueviolet;
     grid-column: 2/6;
+    
 }
 .iteam3{
     /* background-color: aqua; */
@@ -39,7 +40,7 @@
     grid-template-rows: repeat(12 ,1fr);
     border: 1px solid black;
     gap: 20px;
-    
+    margin: 30px 20px;
 
 }
 .thirdgrid{
@@ -107,4 +108,79 @@ li span ion-icon:hover {
     transform: scale(1.7);
     border-radius: 50%;
     background-color: rgb(119, 116, 116);
+}
+
+/* style iteam 2 */  
+.search_box{
+    display: flex;
+    /* background-color: beige; */
+   height: 80px;
+   margin: 10px 0;
+   justify-content: space-between;
+  
+}
+
+.search{
+  
+   font-size: 2rem;
+   width: 60%;
+   
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   gap: 15px;
+   padding: 24px;
+}
+.search input{
+    /* background-color: rgb(20, 24, 17); */
+    text-align: center;
+    width: 90%;
+    border-radius: 14px;
+    appearance: none;
+    outline: none;
+    border: none;
+   
+    background-color: rgb(172, 168, 168);
+    
+    
+ }
+ .search div {
+    /* background-color: rgb(75, 218, 32); */
+    font-size: 6rem;
+    /* width: 6%; */
+  justify-self: center;
+  align-self: center;
+   
+ }
+
+ .unique{
+    
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 50%;
+    align-self: center;
+ }
+.next_to_search{
+   background-color: rgb(204, 18, 18);
+   width: 30%;
+   
+}
+/* .search div icon-icon{
+    font-size: 400px;
+    width: 500px;
+    height: 666px;
+} */
+.button_box{
+    display: flex;
+    height: 80px;
+    background-color: azure;
+    justify-content: space-between;
+}
+.logo_div{
+    background-color: seagreen;
+    width: 40%;
+}
+.buttons_div{
+    background-color: firebrick;
+    width: 40%;
 }
