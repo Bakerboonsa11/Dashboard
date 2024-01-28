@@ -11,6 +11,8 @@
    grid-template-rows: 1fr 1fr 1fr 1fr;
    height:130vh;
    width: 100vw;
+   background-color: #555;
+   
    /* gap: 20px; */
 }
 .grid-item:first-child {
@@ -37,16 +39,44 @@
     grid-row: 2/5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    /* grid-template-rows: repeat(auto-fit,minmax(50px,1fr)); */
-    /* grid-template-rows: repeat(auto-fit,minmax(50px,100px)) */
+   
     grid-template-rows: repeat(12 ,1fr);
-    border: 1px solid black;
+   
     gap: 20px;
     margin: 30px 20px;
 
 }
-.thirdgrid{
-    border: 2px solid red;
+.thirdgrid {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+  
+    border-left: 6px solid  rgb(255, 166, 0);
+    border-radius: 4px;
+}
+.thirdgrid p{
+    /* border: 2px solid red; */
+    font-size: 1rem;
+    
+}
+.thirdgrid h1{
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    
+}
+.thirdgrid div{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    font-size: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 2rem;
+    
 }
 .third_1,.third_2{
     grid-row: 1/5;
@@ -175,7 +205,7 @@ li span ion-icon:hover {
 }
 .margo1_logo{
     padding: 0.4rem;
-    border-radius: 50%;
+    border-radius: 2rem;
     background-color: rgb(255, 166, 0);
     color: #555;
     font-size: 2rem;
@@ -188,6 +218,22 @@ li span ion-icon:hover {
     height: 80px;
     /* background-color: azure; */
     justify-content: space-between;
+}
+.buttons_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+.buttons_div .btn {
+   width: 20%;
+   height: 40%;
+   border: none;
+   border-radius: 10px;
+   border: 1px solid #fff;
+   background-color: #525CEB;
+   color: #fff;
 }
 .logo_div{
     /* background-color: seagreen; */
@@ -212,6 +258,6 @@ li span ion-icon:hover {
     font-size: 1.3rem;
 }
 .buttons_div{
-    background-color: firebrick;
+    /* background-color: firebrick; */
     width: 40%;
 }
