@@ -25,8 +25,10 @@
    
 }
 .iteam2{
-    background-color: blueviolet;
+    background-color: #fffefb;
     grid-column: 2/6;
+    border-bottom: 1px solid #555;
+    box-shadow: 2px 2px 4px rgba(46, 44, 44, 0.5);
     
 }
 .iteam3{
@@ -140,7 +142,7 @@ li span ion-icon:hover {
     outline: none;
     border: none;
    
-    background-color: rgb(172, 168, 168);
+    background-color:#D0D4CA;
     
     
  }
@@ -161,24 +163,53 @@ li span ion-icon:hover {
     align-self: center;
  }
 .next_to_search{
-   background-color: rgb(204, 18, 18);
+   /* background-color: rgb(204, 18, 18); */
    width: 30%;
+   font-size: 3rem;
+   display: flex;
+   align-items: center;
+   justify-items: start;
+   gap: 10px;
+   font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
-/* .search div icon-icon{
-    font-size: 400px;
-    width: 500px;
-    height: 666px;
-} */
+.margo1_logo{
+    padding: 0.4rem;
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    color: #555;
+    font-size: 2rem;
+}
+.bell_icon{
+    font-size: 4rem;
+}
 .button_box{
     display: flex;
     height: 80px;
-    background-color: azure;
+    /* background-color: azure; */
     justify-content: space-between;
 }
 .logo_div{
-    background-color: seagreen;
+    /* background-color: seagreen; */
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.large_margo1_logo{
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    color: #555;
+    font-size: 2rem;
+   
+}
+.logo_div div p{
+    font-size: 1rem;
+}
+.logo_div div h1{
+    font-size: 1.3rem;
 }
 .buttons_div{
     background-color: firebrick;
