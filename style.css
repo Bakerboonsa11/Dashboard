@@ -69,7 +69,7 @@ font-size: 1rem;
 }
 .iteam2{
     background-color: #fffefb;
-    grid-column: 2/6;
+    grid-column: 2/7;
     grid-row: 1/2;
     border-bottom: 1px solid #555;
     box-shadow: 2px 2px 4px rgba(46, 44, 44, 0.5);
