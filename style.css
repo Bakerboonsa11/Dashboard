@@ -4,6 +4,51 @@
     box-sizing: border-box;
     font-size: 62.5%;
 }
+body{
+    position: relative;
+}
+.for_btn_box{
+    position: absolute;
+    background-color: #555;
+    top: 190px;
+    left: 520px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    color:#fff;
+    padding-top: 50px;
+    opacity: 1;
+}
+.search_flex_n{
+    display: flex;
+   gap: 4px;
+  
+   flex-basis: 1;
+}
+.uniquen{
+ font-size: 2rem;
+}
+.searchn{
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btnn{
+width: 40%;
+height: 5%;
+border: none;
+border-radius: 10px;
+border: 1px solid #fff;
+background-color: #525CEB;
+color: #fff;
+margin: 20px;
+font-size: 1rem;
+}
 .grid_container{
    display: grid;
    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
@@ -16,12 +61,7 @@
    
    /* gap: 20px; */
 }
-.grid-item:first-child {
-    grid-row: 1 / 7;
-    
-   
 
-  }
 .iteam1{
     background-color:#525CEB;
     grid-row: 1 / 5;
@@ -29,7 +69,8 @@
 }
 .iteam2{
     background-color: #fffefb;
-    grid-column: 2/-1;
+    grid-column: 2/6;
+    grid-row: 1/2;
     border-bottom: 1px solid #555;
     box-shadow: 2px 2px 4px rgba(46, 44, 44, 0.5);
     
@@ -62,6 +103,7 @@
     color: #663300;
     border-left: 6px solid  rgb(255, 166, 0);
     border-radius: 4px;
+    position: relative;
 }
 .thirdgrid p{
     /* border: 2px solid red; */
@@ -123,6 +165,7 @@
 }
 .third_8{
     grid-row: 7/13;
+   
     
 }
 
@@ -343,19 +386,61 @@ li span ion-icon:hover {
     padding: 2rem;
     
 }
+.search_box{
+    display: flex;
+    /* background-color: beige; */
+   /* height: 80px; */
+   /* margin: 10px 0; */
+   justify-content: center;
+  
+}
   }
+
+
+
   @media screen and (max-width: 730px) {
     .iteam3{
         /* background-color: aqua; */
       display: flex;
       
-      gap: 100px;
+      gap: 10px;
       flex-wrap: wrap;
       flex: 1;
     }
+    .iteam1{
+        background-color:#525CEB;
+        grid-row: 1 / 6;
+       
+    }
    
-    
+    .third_4{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 30rem;
+    }
+    .third_5{
+        position: absolute;
+        left: 0;
+        bottom: -250px;
+        width: 30rem;
+    }
+    .third_8{
+        position: absolute;
+        left: 0;
+        bottom: -400px;
+        width: 30rem;
+    }
   }
 
         
-   
+  @media screen and (max-width: 882px) {
+    .large_margo1_logo{
+        padding: 1rem;
+       
+       
+    }
+    .buttons_div{
+       opacity: 0;
+    }
+  }
