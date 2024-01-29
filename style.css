@@ -61,7 +61,7 @@ font-size: 1rem;
    /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
    grid-template-rows: repeat(auto-fit,minmax(125px,1fr));
-   height:150vh;
+   height:170vh;
    width: 100vw;
    background-color: #EEF5FF;
    
@@ -113,7 +113,8 @@ font-size: 1rem;
 }
 .thirdgrid p{
     /* border: 2px solid red; */
-    font-size: 6em;
+    font-size: 8em;
+    padding: 4px;
     
 }
 .thirdgrid h1{
@@ -159,10 +160,10 @@ font-size: 1rem;
     
 }
 .third_7 section h1{
-    font-size: 12em;
+    font-size: 14em;
 }
 .third_7 section p{
-    font-size: 10em;
+    font-size: 12em;
     padding-right: 5em;
 }
 
@@ -351,7 +352,8 @@ li span ion-icon:hover {
 @media screen and (max-width: 900px) {
     .iteam1{
         background-color:#525CEB;
-        grid-row: 1 / 7;
+        grid-row: 1 / -1;
+        height: 100%;
        
     }
     .iteam3{
@@ -442,7 +444,7 @@ li span ion-icon:hover {
         /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
         /* grid-template-rows: 1fr 1fr 1fr 1fr; */
         grid-template-rows: repeat(auto-fit,minmax(125px,1fr));
-        height:80vh;
+        height:150vh;
         width: 100vw;
         background-color: #EEF5FF;
        
